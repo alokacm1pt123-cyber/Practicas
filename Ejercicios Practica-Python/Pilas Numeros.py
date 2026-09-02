@@ -11,7 +11,7 @@ def agregar_numeros(pila):
             break
         try:
             numero = int(entrada)
-            pila.append(numero)
+            pila.append(numero) 
             print(f"  -> {numero} agregado a la pila.")
         except ValueError:
             print("  -> Eso no es un número entero. Intenta de nuevo.")
@@ -52,7 +52,7 @@ def mostrar_menu():
 
 
 def main():
-    pila = []
+    pila = [] 
 
     while True:
         mostrar_menu()
@@ -71,6 +71,7 @@ def main():
             break
         else:
             print("Opción inválida, elige un número del 1 al 5.")
+
 
 if __name__ == "__main__":
     main()

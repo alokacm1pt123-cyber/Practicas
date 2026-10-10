@@ -4,7 +4,6 @@ class ExploradorRecursivo:
 
     @staticmethod
     def imprimir_arbol(sistema: dict, nivel: int = 0) -> None:
-        # Caso base: un directorio vacío no tiene nada que mostrar.
         if not sistema:
             return
 
